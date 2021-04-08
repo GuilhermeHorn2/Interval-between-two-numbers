@@ -1,0 +1,16 @@
+a = int(input('Smaller:'))
+b = int(input('Biggest:'))
+
+n = a
+
+i = b - a
+
+if a > b:
+    print('Please,follow the order')
+
+k = 0
+
+while k < i-1:
+    n +=1
+    k +=1
+    print(n)
